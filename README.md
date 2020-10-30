@@ -17,11 +17,11 @@ tqdm 4.32.2
 
 #### Data Preprocessing
 
-***Coming Soon***
+* ***Coming Soon***
 
 #### Models
 
-***Coming Soon***
+* ***Coming Soon***
 
 ## Training
 
