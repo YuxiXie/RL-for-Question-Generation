@@ -27,6 +27,10 @@ tqdm 4.32.2
 
 * run [`scripts/train_example.sh`](https://github.com/YuxiXie/RL-for-Question-Generation/blob/main/scripts/train_example.sh) to train the ensemble model which utilizes all three rewards.
 
+## Translating
+
+* run  [`scripts/translate_example.sh`](https://github.com/YuxiXie/RL-for-Question-Generation/blob/main/scripts/translate_example.sh) to get the prediction on the validation dataset.
+
 ## Evaluating
 
 We take use of the [Evaluation codes for MS COCO caption generation](https://github.com/salaniz/pycocoevalcap) for evaluation on automatic metrics.

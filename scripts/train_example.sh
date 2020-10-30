@@ -15,7 +15,7 @@ cd ${EXEHOME}
 
 python train.py \
        -gpus 0 -rl_gpu 1 1 1 \
-       -data ${DATAHOME}/basic_cased_data_64.pt \
+       -data ${DATAHOME}/process/basic_cased_data_64.pt \
        -checkpoint ${HOME}/models/baseline/baseline_cased.chkpt \
        -rl fluency relevance answerability \
        -rl_model_dir ${RLMODELHOME}/fluency ${RLMODELHOME}/relevance ${RLMODELHOME}/answerability \
