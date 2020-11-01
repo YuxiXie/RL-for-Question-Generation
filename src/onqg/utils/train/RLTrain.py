@@ -154,10 +154,9 @@ class RLTrainer(object):
             scores = torch.tensor(scores, device=pred.device)
 
             ans_reward = scores.data.sum().item()
-            ans_scores_scale = torch.log(self.opt.ans_alpha / (1 - scores.data + 1e-16)) # scores.data - 0.5
+            ans_scores_scale = torch.log(self.opt.ans_alpha / (1 - scores.data + 1e-16))
 
         ##=== combination ===##
-        # print(flu_scores_scale, rel_scores_scale, ans_scores_scale)
         scores = 0
         if 'fluency' in self.opt.rl:
             scores += flu_scores_scale  * self.opt.flu_gamma
@@ -168,7 +167,7 @@ class RLTrainer(object):
                 
         n_correct = scores.gt(0).float().sum().item()
         weights = [(batch_size - n_correct) / batch_size, n_correct / batch_size]
-        weights = [1/3, 2/3] if weights[0] > 1/3 else weights   # TODO: magic number
+        weights = [1/3, 2/3] if weights[0] > 1/3 else weights
         scores_scale_rgt = scores.gt(0).float() * scores * weights[1]
         scores_scale_wrg = scores.lt(0).float() * scores * weights[0]
         scores_scale = scores_scale_rgt + scores_scale_wrg

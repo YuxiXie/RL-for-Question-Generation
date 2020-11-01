@@ -296,7 +296,9 @@ class Translator(object):
             if output_sent:
                 all_paras += rst['para']
         
-        bleu = bleu_score.corpus_bleu(all_golds, all_preds)
+        golds = [[[w.lower() for w in g[0]]] for g in all_golds]
+        preds = [[w.lower() for w in p] for p in all_preds]        
+        bleu = bleu_score.corpus_bleu(golds, preds)
 
         if output_sent:
             return bleu, (all_golds, all_preds, all_paras)
