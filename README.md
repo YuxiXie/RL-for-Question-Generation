@@ -19,12 +19,6 @@ tqdm 4.32.2
 
 * download [here](https://drive.google.com/file/d/10cgNwWGB_rdE3YVu78_qdEjl3LgIHThL/view?usp=sharing)
 
-* ***Coming Soon***
-
-#### Models
-
-* ***Coming Soon***
-
 ## Training
 
 * run [`scripts/train_example.sh`](https://github.com/YuxiXie/RL-for-Question-Generation/blob/main/scripts/train_example.sh) to train the ensemble model which utilizes all three rewards.
