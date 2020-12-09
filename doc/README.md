@@ -10,7 +10,7 @@
 <tr>
     <td>&emsp;Values</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
@@ -43,7 +43,7 @@
 <tr>
     <td>&emsp;Values</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
@@ -76,7 +76,7 @@
 <tr>
     <td>&emsp;Values</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
@@ -113,7 +113,7 @@
 <tr>
     <td>&emsp;Fluency</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
@@ -144,7 +144,7 @@
 <tr>
     <td>&emsp;Relevance</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
@@ -175,7 +175,7 @@
 <tr>
     <td>&emsp;Answerability</td>
     <td>&emsp;BLEU-1</td>
-    <td>&emsp;BLEU-2</td>
+    <td>&emsp;BLEU-4</td>
     <td>&emsp;METEOR</td>
     <td>&emsp;ROUGE-L</td>
 </tr>
