@@ -109,6 +109,8 @@
 </tr>
 </table>
 
+---
+
 #### ![](http://latex.codecogs.com/gif.latex?\\gamma_{flu}$,$\gamma_{rel}$,$\gamma_{ans})
 
 * ***Global Loss***
