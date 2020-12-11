@@ -17,10 +17,10 @@
 </tr>
 <tr>
     <td>&emsp;-10</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;38.20</td>
+    <td>&emsp;15.47</td>
+    <td>&emsp;18.72</td>
+    <td>&emsp;34.32</td>
 </tr>
 <tr>
     <td>&emsp;-5</td>
@@ -51,10 +51,10 @@
 </tr>
 <tr>
     <td>&emsp;log(1/(1 - 0.5)) = log2</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;36.33</td>
+    <td>&emsp;14.83</td>
+    <td>&emsp;20.63</td>
+    <td>&emsp;35.58</td>
 </tr>
 <tr>
     <td>&emsp;log(1/(1 - 0.4))</td>
@@ -85,10 +85,10 @@
 </tr>
 <tr>
     <td>&emsp;log(1/(1 - 0.5)) = log2</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;36.40</td>
+    <td>&emsp;13.94</td>
+    <td>&emsp;18.73</td>
+    <td>&emsp;34.07</td>
 </tr>
 <tr>
     <td>&emsp;log(1/(1 - 0.4))</td>
@@ -123,10 +123,10 @@
 </tr>
 <tr>
     <td>&emsp;0.2</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;37.97</td>
+    <td>&emsp;15.41</td>
+    <td>&emsp;19.61</td>
+    <td>&emsp;35.12</td>
 </tr>
 <tr>
     <td>&emsp;0.5</td>
@@ -154,10 +154,10 @@
 </tr>
 <tr>
     <td>&emsp;1</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;37.97</td>
+    <td>&emsp;15.41</td>
+    <td>&emsp;19.61</td>
+    <td>&emsp;35.12</td>
 </tr>
 <tr>
     <td>&emsp;2</td>
@@ -185,10 +185,10 @@
 </tr>
 <tr>
     <td>&emsp;1</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
-    <td>&emsp;</td>
+    <td>&emsp;37.97</td>
+    <td>&emsp;15.41</td>
+    <td>&emsp;19.61</td>
+    <td>&emsp;35.12</td>
 </tr>
 <tr>
     <td>&emsp;2</td>
