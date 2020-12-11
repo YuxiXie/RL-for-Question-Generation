@@ -2,7 +2,7 @@
 
 ## Effects of Hyper-Parameters
 
-#### $\alpha_{flu}$, $\alpha_{rel}$, $\alpha_{ans}$
+#### ![](http://latex.codecogs.com/gif.latex?\\alpha_{flu}, \alpha_{rel}, \alpha_{ans})
 
 * ***fluency***: $\mathcal{L}_{flu} = -(\mathcal{R}_{flu}(\hat{\mathcal{Y}}) - \alpha_{flu})\frac{1}{T}\sum_{t=1}^T\log{P_{QG}(\hat{y}_t|\mathcal{D}, \hat{\mathcal{Y}}_{<t})}$
 
