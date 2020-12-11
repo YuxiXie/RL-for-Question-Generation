@@ -5,6 +5,7 @@
 #### ![](http://latex.codecogs.com/gif.latex?\\alpha_{flu},\alpha_{rel},\alpha_{ans})
 
 * ***fluency***
+
 ![](http://latex.codecogs.com/gif.latex?\\mathcal{L}_{flu}=-(\mathcal{R}_{flu}(\hat{\mathcal{Y}})-\alpha_{flu})\frac{1}{T}\sum_{t=1}^T\log{P_{QG}(\hat{y}_t|\mathcal{D},\hat{\mathcal{Y}}_{<t})})
 
 <table>
@@ -39,6 +40,7 @@
 </table>
 
 * ***relevance***
+
 ![](http://latex.codecogs.com/gif.latex?\\mathcal{L}_{rel}=-(\mathcal{R}_{rel}(\mathcal{D},\hat{\mathcal{Y}})-\alpha_{rel})\frac{1}{T}\sum_{t=1}^T\log{P_{QG}(\hat{y}_t|\mathcal{D},\hat{\mathcal{Y}}_{<t})})
 
 <table>
@@ -73,6 +75,7 @@
 </table>
 
 * ***answerability***
+
 ![](http://latex.codecogs.com/gif.latex?\\mathcal{L}_{ans}=-(\mathcal{R}_{ans}(\mathcal{D},\hat{\mathcal{Y}})-\alpha_{ans})\frac{1}{T}\sum_{t=1}^T\log{P_{QG}(\hat{y}_t|\mathcal{D},\hat{\mathcal{Y}}_{<t})})
 
 <table>
@@ -106,11 +109,10 @@
 </tr>
 </table>
 
-<!-- <tr><td colspan="2"><a href="#resources">4. Resources</a></td></tr> -->
-
 #### ![](http://latex.codecogs.com/gif.latex?\\gamma_{flu}$,$\gamma_{rel}$,$\gamma_{ans})
 
 * ***Global Loss***
+
 ![](http://latex.codecogs.com/gif.latex?\\mathcal{L}=\mathcal{L}_{base}+\gamma_{flu}\mathcal{L}_{flu}+\gamma_{rel}\mathcal{L}_{rel}+\gamma_{ans}\mathcal{L}_{ans})
 
 <table>
