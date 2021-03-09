@@ -219,7 +219,7 @@ def main(opt):
         }
     
     torch.save(data, opt.save_data)
-    import ipdb; ipdb.set_trace()
+#     import ipdb; ipdb.set_trace()
 
 
 if __name__ == '__main__':
