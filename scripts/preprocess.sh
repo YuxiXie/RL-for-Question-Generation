@@ -2,8 +2,8 @@
 
 set -x
 
-DATAHOME=${HOME}/datasets
-EXEHOME=${HOME}/src
+DATAHOME=${RLQGHOME}/datasets
+EXEHOME=${RLQGHOME}/src
 
 cd ${EXEHOME}
 
