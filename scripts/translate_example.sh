@@ -2,9 +2,9 @@
 
 set -x
 
-DATAHOME=${HOME}/datasets/process
-EXEHOME=${HOME}/src
-MODELHOME=${HOME}/models/ensemble
+DATAHOME=${RLQGHOME}/datasets/process
+EXEHOME=${RLQGHOME}/src
+MODELHOME=${RLQGHOME}/models/ensemble
 
 cd ${EXEHOME}
 
