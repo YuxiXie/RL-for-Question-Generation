@@ -2,11 +2,11 @@
 
 set -x
 
-DATAHOME=${HOME}/datasets/process
-EXEHOME=${HOME}/src
-MODELHOME=${HOME}/models/ensemble
-LOGHOME=${HOME}/models/ensemble/logs
-RLMODELHOME=${HOME}/discriminators/models
+DATAHOME=${RLQGHOME}/datasets/process
+EXEHOME=${RLQGHOME}/src
+MODELHOME=${RLQGHOME}/models/ensemble
+LOGHOME=${RLQGHOME}/models/ensemble/logs
+RLMODELHOME=${RLQGHOME}/discriminators/models
 
 mkdir -p ${MODELHOME}
 mkdir -p ${LOGHOME}
