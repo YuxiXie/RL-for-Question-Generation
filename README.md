@@ -1,6 +1,6 @@
 # Exploring Question-Specific Rewards for Generating Deep Questions
 
-This repository contains codes and models for the paper: [Exploring Question-Specific Rewards for Generating Deep Questions (COLING 2020)](https://www.aclweb.org/anthology/2020.coling-main.228.pdf). Below is the framework of our proposed model.
+This repository contains codes and models for the paper: [Exploring Question-Specific Rewards for Generating Deep Questions (COLING 2020 oral)](https://www.aclweb.org/anthology/2020.coling-main.228.pdf). Below is the framework of our proposed model.
 
 ![Model Framework](Framework.jpg)
 
