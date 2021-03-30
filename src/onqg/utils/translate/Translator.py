@@ -215,7 +215,7 @@ class Translator(object):
     def eval_batch(self, model, inputs, max_length, gold, copy_gold=None, copy_switch=None, batchIdx=None):
         
         def get_preds(seq, is_copy_seq=None, copy_seq=None, src_words=None, attn=None):
-            pred = [idx for idx in seq if idx not in [Constants.PAD, Constants.EOS, 102]]   # magic number
+            pred = [idx for idx in seq if idx not in [Constants.PAD, Constants.EOS, Constants.SEP]]   # magic number
             for i, _ in enumerate(pred):
                 if self.opt.copy and is_copy_seq[i].item():
                     try:
